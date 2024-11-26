@@ -130,3 +130,6 @@ dmypy.json
 
 # vs code ide cache
 .vscode
+
+#Intellij
+*.iml

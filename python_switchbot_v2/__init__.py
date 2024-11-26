@@ -1,10 +1,10 @@
 import uuid
 from typing import List
 
-from switchbot.client import SwitchBotClient
-from switchbot.devices import Device
-from switchbot.remotes import Remote
-from switchbot.scene import Scene
+from python_switchbot_v2.client import SwitchBotClient
+from python_switchbot_v2.devices import Device
+from python_switchbot_v2.remotes import Remote
+from python_switchbot_v2.scene import Scene
 
 __version__ = "2.3.1"
 

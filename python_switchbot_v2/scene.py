@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from switchbot.client import SwitchBotClient
+from python_switchbot_v2.client import SwitchBotClient
 
 
 class Scene:

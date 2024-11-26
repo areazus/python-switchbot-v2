@@ -1,5 +1,9 @@
+This is a fork from [jonghwanhyeon/python-switchbot](https://github.com/jonghwanhyeon/python-switchbot), which seemed
+abandoned at the time of the form. The fork was necessary since the package import name conflicts with https://github.com/sblibs/pySwitchbot,
+used by home assistant. I will merge any pull requests, but I am not planning on actively developing it.
+
 # python-switchbot
-A Python library to control SwitchBot devices connected to SwitchBot Hub
+A Python library to control SwitchBot devices connected to SwitchBot Hub.
 
 ## Requirements
 - Python 3.7+
@@ -7,15 +11,16 @@ A Python library to control SwitchBot devices connected to SwitchBot Hub
 
 ## Installation
 ```python
-pip install python-switchbot
+pip install python-switchbot-v2
 ```
 
 ## Usage
 
 
 ### Devices
+
 ```python
-from switchbot import SwitchBot
+from python_switchbot_v2 import SwitchBot
 
 # To get the token and secret, please refer to https://github.com/OpenWonderLabs/SwitchBotAPI#getting-started
 your_switch_bot_token = '98a6732b2ac256d40ffab7db31a82f518969f4d1a64eadff581d45e902327b7c577aa6ead517bda589c19b4ca0b2599b'

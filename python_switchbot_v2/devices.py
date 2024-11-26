@@ -4,7 +4,7 @@ from typing import Any, ClassVar, Dict, List, Optional, Type
 
 import humps
 
-from switchbot.client import SwitchBotClient
+from python_switchbot_v2.client import SwitchBotClient
 
 
 class Device:
